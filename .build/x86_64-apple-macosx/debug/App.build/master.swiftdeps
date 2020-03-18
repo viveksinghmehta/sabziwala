@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "c1716724f20c3d49126a620a5b74ea43"
+build_time: [1584547289, 252361000]
+inputs:
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/Sources/App/Controllers/TodoController.swift": [1584547126, 378146410]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/Sources/App/Models/Todo.swift": [1584547126, 378439903]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/Sources/App/app.swift": [1584547126, 378602147]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/Sources/App/boot.swift": [1584547126, 378759861]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/Sources/App/configure.swift": [1584547126, 378943086]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/Sources/App/routes.swift": [1584547126, 379102826]

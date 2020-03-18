@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "563a91909f1d91852014c19f4fb78188"
+build_time: [1584547251, 318088000]
+inputs:
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Bits/BitsError.swift": [1584547226, 247950948]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Bits/Byte+Alphabet.swift": [1584547226, 248114859]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Bits/Byte+Control.swift": [1584547226, 248280685]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Bits/Byte+Digit.swift": [1584547226, 248443344]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Bits/ByteBuffer+binaryFloatingPointOperations.swift": [1584547226, 248602746]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Bits/ByteBuffer+peek.swift": [1584547226, 248754618]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Bits/ByteBuffer+require.swift": [1584547226, 248929527]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Bits/ByteBuffer+string.swift": [1584547226, 249100685]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Bits/Bytes.swift": [1584547226, 249299491]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Bits/Data+Bytes.swift": [1584547226, 249487443]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Bits/Data+Strings.swift": [1584547226, 249690708]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Bits/Deprecated.swift": [1584547226, 249838153]

@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "4fd4d2c71c4b801a92f7c9e57060b842"
+build_time: [1584547260, 62508000]
+inputs:
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Logging/Exports.swift": [1584547227, 942983305]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Logging/LogLevel.swift": [1584547227, 943141981]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Logging/Logger.swift": [1584547227, 943330880]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Logging/PrintLogger.swift": [1584547227, 943489473]

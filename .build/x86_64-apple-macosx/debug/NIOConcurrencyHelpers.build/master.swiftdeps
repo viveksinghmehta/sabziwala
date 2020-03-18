@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "5680ac5f137d632940acfec5765b1eb4"
+build_time: [1584547246, 341342000]
+inputs:
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/atomics.swift": [1584547227, 62669031]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/lock.swift": [1584547227, 62988282]

@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "6d7b27967fad40290dd8c6dbe6b4078c"
+build_time: [1584547251, 318266000]
+inputs:
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/Async+NIO.swift": [1584547226, 244562300]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/AsyncError.swift": [1584547226, 244849219]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/Collection+Future.swift": [1584547226, 245113914]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/Deprecated.swift": [1584547226, 245368305]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/Exports.swift": [1584547226, 245570924]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/Future+DoCatch.swift": [1584547226, 245809883]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/Future+Flatten.swift": [1584547226, 246056223]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/Future+Global.swift": [1584547226, 246395060]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/Future+Map.swift": [1584547226, 281565469]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/Future+Transform.swift": [1584547226, 246785588]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/Future+Variadic.swift": [1584547226, 246986836]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/Future+Void.swift": [1584547226, 247154473]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/FutureType.swift": [1584547226, 247322634]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/QueueHandler.swift": [1584547226, 247521128]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Async/Worker.swift": [1584547226, 247716575]

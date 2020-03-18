@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "c3cdf36af79f92f004f8f7307a9e59b5"
+build_time: [1584547238, 624463000]
+inputs:
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/swift-nio/Sources/NIOPriorityQueue/Heap.swift": [1584547227, 68693192]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/swift-nio/Sources/NIOPriorityQueue/PriorityQueue.swift": [1584547227, 68854664]

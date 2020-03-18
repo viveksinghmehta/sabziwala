@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "94f89edc8788705da428c6ce4e4382b6"
+build_time: [1584547251, 317215000]
+inputs:
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/swift-nio/Sources/NIOTLS/ApplicationProtocolNegotiationHandler.swift": [1584547227, 69164609]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/swift-nio/Sources/NIOTLS/SNIHandler.swift": [1584547227, 69689511]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/swift-nio/Sources/NIOTLS/TLSEvents.swift": [1584547227, 70016201]

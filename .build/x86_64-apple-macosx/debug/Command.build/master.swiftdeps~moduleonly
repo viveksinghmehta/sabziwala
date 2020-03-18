@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "89f5c1df68074606a2ad2e93a8271b0e"
+build_time: [1584547276, 301154000]
+inputs:
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Base/CommandOption.swift": [1584547227, 933841785]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Base/CommandRunnable.swift": [1584547227, 934067826]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Command/Command.swift": [1584547227, 934417164]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Command/CommandArgument.swift": [1584547227, 934647332]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Config/CommandConfig.swift": [1584547227, 934964982]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Config/Commands.swift": [1584547227, 935201230]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Group/BasicCommandGroup.swift": [1584547227, 935527939]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Group/CommandGroup.swift": [1584547227, 935733354]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Run/CommandContext.swift": [1584547227, 936039177]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Run/CommandInput.swift": [1584547227, 936374586]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Run/Console+Run.swift": [1584547227, 936610373]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Run/Output+Autocomplete.swift": [1584547227, 936803200]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Run/Output+Help.swift": [1584547227, 936972696]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Utilities/CommandError.swift": [1584547227, 937215463]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Utilities/Exports.swift": [1584547227, 937357817]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/console/Sources/Command/Utilities/Utilities.swift": [1584547227, 937511890]

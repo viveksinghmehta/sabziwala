@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "635676b9a9fea4b258d278bd8b3c05c0"
+build_time: [1584547267, 169451000]
+inputs:
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/routing/Sources/Routing/Parameter/Parameter.swift": [1584547226, 66136018]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/routing/Sources/Routing/Parameter/ParameterValue.swift": [1584547226, 66310049]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/routing/Sources/Routing/Parameter/Parameters.swift": [1584547226, 66473200]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/routing/Sources/Routing/Register/PathComponent.swift": [1584547226, 66711532]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/routing/Sources/Routing/Register/Route.swift": [1584547226, 66887685]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/routing/Sources/Routing/Register/RouterOption.swift": [1584547226, 67050294]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/routing/Sources/Routing/Routing/RoutableComponent.swift": [1584547226, 67271783]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/routing/Sources/Routing/Routing/RouterNode.swift": [1584547226, 67440771]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/routing/Sources/Routing/Routing/TrieRouter.swift": [1584547226, 67613233]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/routing/Sources/Routing/Utilities/Deprecated.swift": [1584547226, 68046617]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/routing/Sources/Routing/Utilities/Exports.swift": [1584547226, 68283263]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/routing/Sources/Routing/Utilities/RoutingError.swift": [1584547226, 68475601]

@@ -1,0 +1,4 @@
+module CNIOHTTPParser {
+    umbrella header "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+    export *
+}

@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "3093ff8fedd73e273368ce36e15422e3"
+build_time: [1584547260, 62913000]
+inputs:
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/multipart/Sources/Multipart/Exports.swift": [1584547229, 351989103]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/multipart/Sources/Multipart/FormDataDecoder.swift": [1584547229, 352237985]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/multipart/Sources/Multipart/FormDataEncoder.swift": [1584547229, 352435953]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/multipart/Sources/Multipart/MultipartError.swift": [1584547229, 352594111]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/multipart/Sources/Multipart/MultipartParser.swift": [1584547229, 352799404]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/multipart/Sources/Multipart/MultipartPart.swift": [1584547229, 352966546]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/multipart/Sources/Multipart/MultipartPartConvertible.swift": [1584547229, 353155978]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/multipart/Sources/Multipart/MultipartSerializer.swift": [1584547229, 353321143]
