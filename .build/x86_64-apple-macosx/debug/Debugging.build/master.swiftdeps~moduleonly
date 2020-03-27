@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
-options: "24793ef0a2394d4d2749e0453836e122"
-build_time: [1585315893, 432585000]
-inputs:
-  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Debugging/Debuggable.swift": [1585315878, 371256545]
-  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Debugging/Demangler.swift": [1585315878, 371418863]
-  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/Debugging/SourceLocation.swift": [1585315878, 371574363]

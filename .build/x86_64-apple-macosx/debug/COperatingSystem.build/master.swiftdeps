@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
-options: "3a752cadffb92a84847e402c9d80fd78"
-build_time: [1585315893, 434787000]
-inputs:
-  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/core/Sources/COperatingSystem/libc.swift": [1585315878, 365462948]
