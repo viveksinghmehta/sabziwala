@@ -75,7 +75,7 @@ depends-member:
 - ["5Vapor19ParametersContainerV", "init"]
 - ["5Vapor19ParametersContainerV", "next"]
 - ["5Vapor19ParametersContainerV", "rawValues"]
-- !private ["5Vapor19ParametersContainerV", "request"]
+- ["5Vapor19ParametersContainerV", "request"]
 - ["5Vapor19ParametersContainerV", "values"]
 - !private ["7Routing27PathComponentsRepresentableP", "filter"]
 - !private ["7Routing27PathComponentsRepresentableP", "map"]
@@ -1524,4 +1524,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "6a75f69ca96c5664e6a2944d39f38f55"
+interface-hash: "7ce4737272f61929bc0945f6f7dfaad7"

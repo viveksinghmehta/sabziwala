@@ -19,7 +19,6 @@ depends-top-level:
 - "URLEncodedFormData"
 - !private "URLEncodedFormError"
 - "URLEncodedFormSerializer"
-- "UnicodeScalarType"
 - !private "_allowedCharacters"
 depends-member:
 - !private ["s18AdditiveArithmeticP", "ampersand"]
@@ -1977,4 +1976,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d9ab6fb3ffdea72148b131daeb94494d"
+interface-hash: "f63be16fe717104ac7fc33554e571bc0"

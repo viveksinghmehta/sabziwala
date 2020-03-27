@@ -417,6 +417,7 @@ depends-member:
 - !private ["9Multipart0A15PartConvertibleP", "eTag"]
 - !private ["9Multipart0A15PartConvertibleP", "init"]
 - !private ["9Multipart0A15PartConvertibleP", "init"]
+- !private ["9Multipart0A15PartConvertibleP", "timeIntervalSince1970"]
 - !private ["SM", "init"]
 - !private ["SM", "init"]
 - !private ["SM", "last"]

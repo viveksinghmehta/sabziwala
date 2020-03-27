@@ -35,6 +35,7 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["4HTTP15HTTPCookieValueV", "init"]
 - !private ["SH", "init"]
+- !private ["9Multipart0A15PartConvertibleP", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["4Core19ReflectionDecodableP", "init"]
 - !private ["7ServiceAAP", "Date"]
@@ -88,6 +89,7 @@ depends-nominal:
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "4HTTP15HTTPCookieValueV"
 - !private "SH"
+- !private "9Multipart0A15PartConvertibleP"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "4Core19ReflectionDecodableP"
 - "7ServiceAAP"

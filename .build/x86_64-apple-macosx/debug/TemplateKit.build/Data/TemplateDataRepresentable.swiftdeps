@@ -23,6 +23,7 @@ provides-nominal:
 - "Sf"
 - "10Foundation4UUIDV"
 - "10Foundation4DateV"
+- "10Foundation3URLV"
 provides-member:
 - ["11TemplateKit0A17DataRepresentableP", ""]
 - ["SS", ""]
@@ -47,6 +48,7 @@ provides-member:
 - ["Sf", ""]
 - ["10Foundation4UUIDV", ""]
 - ["10Foundation4DateV", ""]
+- ["10Foundation3URLV", ""]
 - ["s17FixedWidthIntegerP", "convertToTemplateData"]
 - ["4Core12OptionalTypeP", "convertToTemplateData"]
 provides-dynamic-lookup:
@@ -82,6 +84,7 @@ depends-top-level:
 - "UInt32"
 - "UInt64"
 - "UInt8"
+- "URL"
 - "UUID"
 - !private "UnicodeScalarType"
 depends-member:
@@ -99,6 +102,7 @@ depends-member:
 - ["4Core15AnyOptionalTypeP", "convertToTemplateData"]
 - !private ["4Core15AnyOptionalTypeP", "wrapped"]
 - !private ["4Core22AnyReflectionDecodableP", "Double"]
+- !private ["4Core22AnyReflectionDecodableP", "absoluteString"]
 - ["4Core22AnyReflectionDecodableP", "convertToTemplateData"]
 - !private ["4Core22AnyReflectionDecodableP", "description"]
 - !private ["4Core22AnyReflectionDecodableP", "init"]
@@ -159,6 +163,7 @@ depends-member:
 - ["3NIO20ContiguousCollectionP", "convertToTemplateData"]
 - !private ["3NIO20ContiguousCollectionP", "map"]
 - !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
 - ["s28CustomDebugStringConvertibleP", "convertToTemplateData"]
 - !private ["s28CustomDebugStringConvertibleP", "description"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
@@ -178,6 +183,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "Int"]
 - ["s23CustomStringConvertibleP", "TemplateData"]
 - !private ["s23CustomStringConvertibleP", "TemplateKitError"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - ["s23CustomStringConvertibleP", "convertToTemplateData"]
@@ -199,6 +205,7 @@ depends-member:
 - !private ["10Foundation4DateV", "timeIntervalSince1970"]
 - !private ["9Debugging10DebuggableP", "init"]
 - !private ["Se", "Double"]
+- !private ["Se", "absoluteString"]
 - ["Se", "convertToTemplateData"]
 - !private ["Se", "description"]
 - !private ["Se", "init"]
@@ -220,6 +227,7 @@ depends-member:
 - ["Sd", "deinit"]
 - !private ["Sd", "init"]
 - !private ["SE", "Double"]
+- !private ["SE", "absoluteString"]
 - ["SE", "convertToTemplateData"]
 - !private ["SE", "description"]
 - !private ["SE", "init"]
@@ -232,6 +240,7 @@ depends-member:
 - !private ["SQ", "Int"]
 - ["SQ", "TemplateData"]
 - !private ["SQ", "TemplateKitError"]
+- !private ["SQ", "absoluteString"]
 - !private ["SQ", "array"]
 - !private ["SQ", "bool"]
 - ["SQ", "convertToTemplateData"]
@@ -288,6 +297,7 @@ depends-member:
 - !private ["SH", "Int"]
 - ["SH", "TemplateData"]
 - !private ["SH", "TemplateKitError"]
+- !private ["SH", "absoluteString"]
 - ["SH", "convertToTemplateData"]
 - !private ["SH", "description"]
 - !private ["SH", "init"]
@@ -356,10 +366,12 @@ depends-member:
 - !private ["Sk", "map"]
 - ["Sm", "convertToTemplateData"]
 - !private ["Sm", "map"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
 - ["10Foundation20ReferenceConvertibleP", "convertToTemplateData"]
 - !private ["10Foundation20ReferenceConvertibleP", "description"]
 - !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
 - !private ["4Core19ReflectionDecodableP", "Double"]
+- !private ["4Core19ReflectionDecodableP", "absoluteString"]
 - ["4Core19ReflectionDecodableP", "convertToTemplateData"]
 - !private ["4Core19ReflectionDecodableP", "description"]
 - !private ["4Core19ReflectionDecodableP", "init"]
@@ -411,6 +423,7 @@ depends-member:
 - !private ["11TemplateKit0A17DataRepresentableP", "Double"]
 - ["11TemplateKit0A17DataRepresentableP", "TemplateData"]
 - ["11TemplateKit0A17DataRepresentableP", ""]
+- !private ["11TemplateKit0A17DataRepresentableP", "absoluteString"]
 - !private ["11TemplateKit0A17DataRepresentableP", "array"]
 - !private ["11TemplateKit0A17DataRepresentableP", "bool"]
 - ["11TemplateKit0A17DataRepresentableP", "convertToTemplateData"]
@@ -445,6 +458,10 @@ depends-member:
 - ["s6UInt64V", "deinit"]
 - ["s5UInt8V", "convertToTemplateData"]
 - ["s5UInt8V", "deinit"]
+- ["10Foundation3URLV", "TemplateData"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- ["10Foundation3URLV", "convertToTemplateData"]
+- ["10Foundation3URLV", "deinit"]
 - ["10Foundation4UUIDV", "TemplateData"]
 - ["10Foundation4UUIDV", "convertToTemplateData"]
 - ["10Foundation4UUIDV", "deinit"]
@@ -459,6 +476,7 @@ depends-member:
 - ["s22_CVarArgPassedAsDoubleP", "convertToTemplateData"]
 - !private ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "Double"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
 - ["s30_CustomPlaygroundQuickLookableP", "convertToTemplateData"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "max"]
@@ -478,6 +496,8 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "min"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "convertToTemplateData"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertToTemplateData"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "convertToTemplateData"]
 - ["s19_HasContiguousBytesP", "convertToTemplateData"]
 - !private ["s19_HasContiguousBytesP", "map"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "Double"]
@@ -488,6 +508,7 @@ depends-member:
 - !private ["s35_HasCustomAnyHashableRepresentationP", "max"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "min"]
 - !private ["s21_ObjectiveCBridgeableP", "Double"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
 - ["s21_ObjectiveCBridgeableP", "convertToTemplateData"]
 - !private ["s21_ObjectiveCBridgeableP", "description"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
@@ -578,6 +599,7 @@ depends-nominal:
 - "s6UInt32V"
 - "s6UInt64V"
 - "s5UInt8V"
+- "10Foundation3URLV"
 - "10Foundation4UUIDV"
 - "SU"
 - "s14_ArrayProtocolP"
@@ -591,6 +613,7 @@ depends-nominal:
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
 - "s19_HasContiguousBytesP"
 - "s35_HasCustomAnyHashableRepresentationP"
 - "s21_ObjectiveCBridgeableP"
@@ -1906,4 +1929,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "60e767c034f3395c79bbc9eece1cd129"
+interface-hash: "c641005eb391d7d0f50ead91572b32d9"

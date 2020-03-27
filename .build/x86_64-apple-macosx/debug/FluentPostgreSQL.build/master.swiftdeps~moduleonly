@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "b6f4f2a91902189a96962e7bae5ff054"
+build_time: [1585315950, 76374000]
+inputs:
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/Deprecated.swift": [1585315879, 184858377]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/Exports.swift": [1585315879, 185134727]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/Fluent+PostgreSQLUpsert.swift": [1585315879, 185337229]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/FluentPostgreSQLProvider.swift": [1585315879, 185527789]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/FluentPostgreSQLQuery.swift": [1585315879, 185708749]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/FluentPostgreSQLSchema.swift": [1585315879, 185863647]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+JoinSupporting.swift": [1585315879, 186097589]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+KeyedCacheSupporting.swift": [1585315879, 186248115]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+MigrationSupporting.swift": [1585315879, 186392725]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+QuerySupporting.swift": [1585315879, 186682214]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+SchemaSupporting.swift": [1585315879, 186943368]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLDatabase+TransactionSupporting.swift": [1585315879, 187125636]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLEnum.swift": [1585315879, 187304426]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLModel.swift": [1585315879, 187481678]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLStringModel.swift": [1585315879, 187640034]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/PostgreSQLUUIDModel.swift": [1585315879, 187803867]
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/checkouts/fluent-postgresql/Sources/FluentPostgreSQL/Utilities.swift": [1585315879, 187955807]

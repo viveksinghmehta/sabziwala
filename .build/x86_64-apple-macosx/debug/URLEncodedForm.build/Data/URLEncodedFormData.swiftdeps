@@ -19,10 +19,12 @@ depends-top-level:
 - "ExpressibleByStringLiteral"
 - "NestedData"
 - "String"
+- "URL"
 - "URLEncodedFormData"
 - "URLEncodedFormDataContext"
 depends-member:
 - !private ["4Core22AnyReflectionDecodableP", "forEach"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
 - !private ["4Core22AnyReflectionDecodableP", "subscript"]
 - !private ["Sa", "forEach"]
 - !private ["SK", "forEach"]
@@ -33,22 +35,27 @@ depends-member:
 - !private ["10Foundation15ContiguousBytesP", "forEach"]
 - !private ["3NIO20ContiguousCollectionP", "forEach"]
 - !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s17CustomReflectableP", "forEach"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["10Foundation12DataProtocolP", "forEach"]
 - !private ["Se", "forEach"]
+- !private ["Se", "init"]
 - !private ["Se", "subscript"]
 - !private ["SD", "subscript"]
 - !private ["SE", "forEach"]
+- !private ["SE", "init"]
 - !private ["SE", "subscript"]
 - ["SQ", "=="]
 - ["SQ", "ArrayLiteralElement"]
 - ["SQ", "ExtendedGraphemeClusterLiteralType"]
 - ["SQ", "Key"]
 - ["SQ", "StringLiteralType"]
+- !private ["SQ", "URL"]
 - ["SQ", "UnicodeScalarLiteralType"]
 - ["SQ", "Value"]
 - ["SQ", ""]
@@ -71,6 +78,7 @@ depends-member:
 - ["s25ExpressibleByArrayLiteralP", "ExtendedGraphemeClusterLiteralType"]
 - ["s25ExpressibleByArrayLiteralP", "Key"]
 - ["s25ExpressibleByArrayLiteralP", "StringLiteralType"]
+- !private ["s25ExpressibleByArrayLiteralP", "URL"]
 - ["s25ExpressibleByArrayLiteralP", "UnicodeScalarLiteralType"]
 - ["s25ExpressibleByArrayLiteralP", "Value"]
 - ["s25ExpressibleByArrayLiteralP", ""]
@@ -92,6 +100,7 @@ depends-member:
 - ["s30ExpressibleByDictionaryLiteralP", "ExtendedGraphemeClusterLiteralType"]
 - ["s30ExpressibleByDictionaryLiteralP", "Key"]
 - ["s30ExpressibleByDictionaryLiteralP", "StringLiteralType"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "URL"]
 - ["s30ExpressibleByDictionaryLiteralP", "UnicodeScalarLiteralType"]
 - ["s30ExpressibleByDictionaryLiteralP", "Value"]
 - ["s30ExpressibleByDictionaryLiteralP", ""]
@@ -113,6 +122,7 @@ depends-member:
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Key"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "URL"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Value"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
@@ -133,6 +143,7 @@ depends-member:
 - ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
 - ["s26ExpressibleByStringLiteralP", "Key"]
 - ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "URL"]
 - ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
 - ["s26ExpressibleByStringLiteralP", "Value"]
 - ["s26ExpressibleByStringLiteralP", ""]
@@ -153,6 +164,7 @@ depends-member:
 - ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "Key"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "URL"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "Value"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
@@ -169,6 +181,7 @@ depends-member:
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "str"]
 - !private ["SH", "forEach"]
+- !private ["SH", "init"]
 - !private ["SH", "subscript"]
 - !private ["4Core23LosslessDataConvertibleP", "forEach"]
 - !private ["SM", "forEach"]
@@ -178,6 +191,7 @@ depends-member:
 - ["4Core10NestedDataP", "ExtendedGraphemeClusterLiteralType"]
 - ["4Core10NestedDataP", "Key"]
 - ["4Core10NestedDataP", "StringLiteralType"]
+- !private ["4Core10NestedDataP", "URL"]
 - ["4Core10NestedDataP", "UnicodeScalarLiteralType"]
 - ["4Core10NestedDataP", "Value"]
 - ["4Core10NestedDataP", ""]
@@ -195,16 +209,20 @@ depends-member:
 - ["4Core10NestedDataP", "str"]
 - !private ["Sk", "forEach"]
 - !private ["Sm", "forEach"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["4Core19ReflectionDecodableP", "forEach"]
+- !private ["4Core19ReflectionDecodableP", "init"]
 - !private ["4Core19ReflectionDecodableP", "subscript"]
 - !private ["ST", "forEach"]
 - !private ["ST", "subscript"]
+- !private ["10Foundation3URLV", "init"]
 - ["14URLEncodedForm0aB4DataO", "=="]
 - ["14URLEncodedForm0aB4DataO", "ArrayLiteralElement"]
 - ["14URLEncodedForm0aB4DataO", "ExtendedGraphemeClusterLiteralType"]
 - ["14URLEncodedForm0aB4DataO", "Key"]
 - ["14URLEncodedForm0aB4DataO", "String"]
 - ["14URLEncodedForm0aB4DataO", "StringLiteralType"]
+- ["14URLEncodedForm0aB4DataO", "URL"]
 - ["14URLEncodedForm0aB4DataO", "URLEncodedFormData"]
 - ["14URLEncodedForm0aB4DataO", "UnicodeScalarLiteralType"]
 - ["14URLEncodedForm0aB4DataO", "Value"]
@@ -223,15 +241,20 @@ depends-member:
 - ["14URLEncodedForm0aB4DataO", "init"]
 - ["14URLEncodedForm0aB4DataO", "str"]
 - ["14URLEncodedForm0aB4DataO", "string"]
+- ["14URLEncodedForm0aB4DataO", "url"]
 - ["14URLEncodedForm0aB11DataContextC", "URLEncodedFormData"]
 - ["14URLEncodedForm0aB11DataContextC", "data"]
 - ["14URLEncodedForm0aB11DataContextC", "init"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "init"]
 - !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["s19_HasContiguousBytesP", "forEach"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 depends-nominal:
 - !private "4Core22AnyReflectionDecodableP"
@@ -261,12 +284,17 @@ depends-nominal:
 - "4Core10NestedDataP"
 - !private "Sk"
 - !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
 - !private "4Core19ReflectionDecodableP"
 - !private "ST"
+- !private "10Foundation3URLV"
 - "14URLEncodedForm0aB4DataO"
 - "14URLEncodedForm0aB11DataContextC"
+- !private "14URLEncodedForm0aB15DataConvertibleP"
 - !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "s21_ObjectiveCBridgeableP"
@@ -1580,4 +1608,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c86e577128c156ce2f09af897dd91974"
+interface-hash: "82a7e80b1393e7229b3772514f3c8b3c"

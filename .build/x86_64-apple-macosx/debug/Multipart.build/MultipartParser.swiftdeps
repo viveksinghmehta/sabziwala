@@ -10,9 +10,11 @@ depends-top-level:
 - !private "&&"
 - !private "+"
 - !private "+="
+- !private "-"
 - !private "..<"
 - !private "<"
 - !private "=="
+- !private ">"
 - "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
@@ -29,6 +31,7 @@ depends-top-level:
 - !private "StringLiteralType"
 - "UInt8"
 - !private "_MultipartParser"
+- !private "assert"
 - !private "memcmp"
 depends-member:
 - !private ["s18AdditiveArithmeticP", "advanced"]
@@ -174,6 +177,8 @@ depends-member:
 - ["s23CustomStringConvertibleP", "Index"]
 - !private ["s23CustomStringConvertibleP", "advanced"]
 - !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "carriageReturn"]
 - !private ["s23CustomStringConvertibleP", "ci"]
 - !private ["s23CustomStringConvertibleP", "colon"]
@@ -231,6 +236,8 @@ depends-member:
 - !private ["Se", "subscript"]
 - !private ["Se", "withByteBuffer"]
 - !private ["Se", "withUnsafeBytes"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["SD", "subscript"]
 - ["SE", "Index"]
 - !private ["SE", "advanced"]
@@ -480,8 +487,12 @@ depends-member:
 - !private ["Sx", "newLine"]
 - !private ["SS", "ci"]
 - !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["Sy", "ci"]
 - !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
 - !private ["s16TextOutputStreamP", "ci"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "ci"]
@@ -579,6 +590,7 @@ depends-nominal:
 - "10Foundation12DataProtocolP"
 - !private "9Debugging10DebuggableP"
 - "Se"
+- !private "s26DefaultStringInterpolationV"
 - !private "SD"
 - "SE"
 - !private "SS10FoundationE8EncodingV"
@@ -625,6 +637,7 @@ depends-nominal:
 - !private "s13SignedNumericP"
 - !private "Sx"
 - !private "SS"
+- !private "s27StringInterpolationProtocolP"
 - !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"

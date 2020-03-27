@@ -6,7 +6,7 @@ fbe86ed3e8209ed441e3dc750fa092687af7e5c0 refs/heads/dbkit-gm
 4a6abab67764e4375fffc57ee8ba76bd3952c55c refs/heads/id-overwrite-fix
 2376a3cb19c60d2a512b44dc02f7503ff637a034 refs/heads/large-save-perf
 38c802c322898e6dd64d88a44b77fe7c833e1c71 refs/heads/lifecycletests
-d0fe766d942cf83424e03603bdb1aca98c1bd9d9 refs/heads/master
+89521038e1bcff195ad5775dfc294347b4bfc41d refs/heads/master
 78e00fc9d1872f69c163698ebe2a85345ac93ba2 refs/heads/multiple-row-insert
 063ce2b82b16ebe3b2c3969e555e88da001d4248 refs/heads/nil-sql-query
 e3de15670bfba128a3309170a4eab34a3450401f refs/heads/optional-parent-tests
@@ -51,6 +51,8 @@ e86b051e83c8b4ba48344d4cf20bda3dc8d0adc2 refs/pull/139/head
 a7760fc4ee38fd1445c167f44f150f3ea7118db2 refs/pull/14/head
 16ac0c5e78dbbf94a1017db9cb525db03f695424 refs/pull/140/head
 dbf8150e23345cb71b2b1141f24880d3582b0a73 refs/pull/141/head
+26163ccf0d3fb24ee565824c3f6d8d087dd32b87 refs/pull/143/head
+17afdb4f5e521c478d371e840739f4c36d43d999 refs/pull/144/head
 b1303459130cfd6a7b170117f7c3af963ce53f9e refs/pull/15/head
 9a9548c306956e23506fd49c25963970cc3208d2 refs/pull/17/head
 35a864603bdea14f9962c6d38af8bef1b3f100b7 refs/pull/18/head
@@ -63,7 +65,7 @@ d1eda980165e3cbd6a7a4290253c5d46d65fbfe9 refs/pull/27/head
 518f07392ba0d9b83969badf86f8cf4ab5e0c190 refs/pull/31/head
 ecc7c267b92cd63ec624b9aebb909cc39fee7184 refs/pull/33/head
 5ac5fa4e54929b287536726e6949710de5133ca3 refs/pull/34/head
-b5fc7c30e559e5d52112cd7f0791a825319a31b3 refs/pull/34/merge
+357709c02ebeed0be0abe2992eb4576784ac6acf refs/pull/34/merge
 500588579645882869b4917cbf3703f485794b9e refs/pull/37/head
 8a2d6a0207d0b2e22377278202101832a06b2a73 refs/pull/37/merge
 fbe86ed3e8209ed441e3dc750fa092687af7e5c0 refs/pull/39/head
@@ -134,3 +136,4 @@ dc03d7ce672dbf4e673795f8ff3d6350973e74a6 refs/tags/2.0.0-beta.2.4
 9244cb2c028cb3e6938a17d6d1200c3bd51da997 refs/tags/2.0.0-beta.3
 4265268638dbca18d2619f9d76ce9c1b35f3fc94 refs/tags/2.0.0-beta.4
 36ab616bf73dceed67dd97d5fa5ac8b4b55dd62c refs/tags/2.0.0-rc.1
+a7b7e341fe998ac1a20eac21962af934146a5de1 refs/tags/2.0.0-rc.1.1

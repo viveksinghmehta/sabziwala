@@ -4,6 +4,7 @@ provides-top-level:
 provides-nominal:
 - "14URLEncodedForm0aB15DataConvertibleP"
 - "SS"
+- "10Foundation3URLV"
 - "Si"
 - "s4Int8V"
 - "s5Int16V"
@@ -21,6 +22,7 @@ provides-nominal:
 provides-member:
 - ["14URLEncodedForm0aB15DataConvertibleP", ""]
 - ["SS", ""]
+- ["10Foundation3URLV", ""]
 - ["s17FixedWidthIntegerP", ""]
 - ["Si", ""]
 - ["s4Int8V", ""]
@@ -63,6 +65,7 @@ depends-top-level:
 - "UInt32"
 - "UInt64"
 - "UInt8"
+- "URL"
 - "URLEncodedFormData"
 - "URLEncodedFormDataConvertible"
 - !private "URLEncodedFormError"
@@ -79,6 +82,7 @@ depends-member:
 - !private ["4Core15AnyOptionalTypeP", "flatMap"]
 - !private ["4Core22AnyReflectionDecodableP", "Decimal"]
 - !private ["4Core22AnyReflectionDecodableP", "URLEncodedFormError"]
+- !private ["4Core22AnyReflectionDecodableP", "absoluteString"]
 - !private ["4Core22AnyReflectionDecodableP", "bool"]
 - ["4Core22AnyReflectionDecodableP", "convertFromURLEncodedFormData"]
 - ["4Core22AnyReflectionDecodableP", "convertToURLEncodedFormData"]
@@ -141,6 +145,7 @@ depends-member:
 - !private ["SL", "init"]
 - !private ["SL", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "URLEncodedFormError"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
 - !private ["s28CustomDebugStringConvertibleP", "bool"]
 - ["s28CustomDebugStringConvertibleP", "convertFromURLEncodedFormData"]
 - ["s28CustomDebugStringConvertibleP", "convertToURLEncodedFormData"]
@@ -158,6 +163,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "Decimal"]
 - ["s23CustomStringConvertibleP", "URLEncodedFormData"]
 - !private ["s23CustomStringConvertibleP", "URLEncodedFormError"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "bool"]
@@ -177,6 +183,7 @@ depends-member:
 - !private ["So9NSDecimala", "init"]
 - !private ["Se", "Decimal"]
 - !private ["Se", "URLEncodedFormError"]
+- !private ["Se", "absoluteString"]
 - !private ["Se", "bool"]
 - ["Se", "convertFromURLEncodedFormData"]
 - ["Se", "convertToURLEncodedFormData"]
@@ -193,6 +200,7 @@ depends-member:
 - !private ["Sd", "init"]
 - !private ["SE", "Decimal"]
 - !private ["SE", "URLEncodedFormError"]
+- !private ["SE", "absoluteString"]
 - !private ["SE", "bool"]
 - ["SE", "convertFromURLEncodedFormData"]
 - ["SE", "convertToURLEncodedFormData"]
@@ -204,6 +212,7 @@ depends-member:
 - !private ["SQ", "Double"]
 - ["SQ", "URLEncodedFormData"]
 - !private ["SQ", "URLEncodedFormError"]
+- !private ["SQ", "absoluteString"]
 - !private ["SQ", "bool"]
 - ["SQ", "convertFromURLEncodedFormData"]
 - ["SQ", "convertToURLEncodedFormData"]
@@ -213,21 +222,25 @@ depends-member:
 - !private ["SQ", "init"]
 - !private ["SQ", "str"]
 - !private ["SQ", "string"]
+- !private ["SQ", "url"]
 - !private ["s5ErrorP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "str"]
 - !private ["s25ExpressibleByArrayLiteralP", "string"]
+- !private ["s25ExpressibleByArrayLiteralP", "url"]
 - !private ["s27ExpressibleByBooleanLiteralP", "URLEncodedFormError"]
 - ["s27ExpressibleByBooleanLiteralP", "convertFromURLEncodedFormData"]
 - ["s27ExpressibleByBooleanLiteralP", "convertToURLEncodedFormData"]
 - !private ["s27ExpressibleByBooleanLiteralP", "description"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "str"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "string"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "url"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "URLEncodedFormError"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "bool"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertFromURLEncodedFormData"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertToURLEncodedFormData"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "str"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "url"]
 - !private ["s25ExpressibleByFloatLiteralP", "Decimal"]
 - !private ["s25ExpressibleByFloatLiteralP", "Double"]
 - ["s25ExpressibleByFloatLiteralP", "URLEncodedFormData"]
@@ -257,12 +270,14 @@ depends-member:
 - ["s26ExpressibleByStringLiteralP", "convertToURLEncodedFormData"]
 - !private ["s26ExpressibleByStringLiteralP", "str"]
 - !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s26ExpressibleByStringLiteralP", "url"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "URLEncodedFormError"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "bool"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "convertFromURLEncodedFormData"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "convertToURLEncodedFormData"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "str"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "url"]
 - ["s17FixedWidthIntegerP", "URLEncodedFormData"]
 - !private ["s17FixedWidthIntegerP", "URLEncodedFormError"]
 - ["s17FixedWidthIntegerP", "convertFromURLEncodedFormData"]
@@ -284,6 +299,7 @@ depends-member:
 - !private ["SH", "Double"]
 - ["SH", "URLEncodedFormData"]
 - !private ["SH", "URLEncodedFormError"]
+- !private ["SH", "absoluteString"]
 - !private ["SH", "bool"]
 - ["SH", "convertFromURLEncodedFormData"]
 - ["SH", "convertToURLEncodedFormData"]
@@ -334,6 +350,7 @@ depends-member:
 - !private ["So8NSStringC", "bool"]
 - !private ["4Core10NestedDataP", "str"]
 - !private ["4Core10NestedDataP", "string"]
+- !private ["4Core10NestedDataP", "url"]
 - !private ["Sj", "Decimal"]
 - !private ["Sj", "Double"]
 - ["Sj", "URLEncodedFormData"]
@@ -349,8 +366,13 @@ depends-member:
 - !private ["Sm", "bool"]
 - ["Sm", "convertFromURLEncodedFormData"]
 - ["Sm", "convertToURLEncodedFormData"]
+- !private ["10Foundation20ReferenceConvertibleP", "URLEncodedFormError"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- ["10Foundation20ReferenceConvertibleP", "convertFromURLEncodedFormData"]
+- ["10Foundation20ReferenceConvertibleP", "convertToURLEncodedFormData"]
 - !private ["4Core19ReflectionDecodableP", "Decimal"]
 - !private ["4Core19ReflectionDecodableP", "URLEncodedFormError"]
+- !private ["4Core19ReflectionDecodableP", "absoluteString"]
 - !private ["4Core19ReflectionDecodableP", "bool"]
 - ["4Core19ReflectionDecodableP", "convertFromURLEncodedFormData"]
 - ["4Core19ReflectionDecodableP", "convertToURLEncodedFormData"]
@@ -426,12 +448,21 @@ depends-member:
 - ["s5UInt8V", "convertFromURLEncodedFormData"]
 - ["s5UInt8V", "convertToURLEncodedFormData"]
 - ["s5UInt8V", "deinit"]
+- ["10Foundation3URLV", "URL"]
+- ["10Foundation3URLV", "URLEncodedFormData"]
+- !private ["10Foundation3URLV", "URLEncodedFormError"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- ["10Foundation3URLV", "convertFromURLEncodedFormData"]
+- ["10Foundation3URLV", "convertToURLEncodedFormData"]
+- ["10Foundation3URLV", "deinit"]
 - !private ["14URLEncodedForm0aB4DataO", "str"]
 - !private ["14URLEncodedForm0aB4DataO", "string"]
+- !private ["14URLEncodedForm0aB4DataO", "url"]
 - !private ["14URLEncodedForm0aB15DataConvertibleP", "Decimal"]
 - ["14URLEncodedForm0aB15DataConvertibleP", "URLEncodedFormData"]
 - !private ["14URLEncodedForm0aB15DataConvertibleP", "URLEncodedFormError"]
 - ["14URLEncodedForm0aB15DataConvertibleP", ""]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "absoluteString"]
 - !private ["14URLEncodedForm0aB15DataConvertibleP", "bool"]
 - ["14URLEncodedForm0aB15DataConvertibleP", "convertFromURLEncodedFormData"]
 - ["14URLEncodedForm0aB15DataConvertibleP", "convertToURLEncodedFormData"]
@@ -451,6 +482,7 @@ depends-member:
 - !private ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "URLEncodedFormError"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "bool"]
 - ["s30_CustomPlaygroundQuickLookableP", "convertFromURLEncodedFormData"]
 - ["s30_CustomPlaygroundQuickLookableP", "convertToURLEncodedFormData"]
@@ -481,6 +513,10 @@ depends-member:
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "bool"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertFromURLEncodedFormData"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertToURLEncodedFormData"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "URLEncodedFormError"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "convertFromURLEncodedFormData"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "convertToURLEncodedFormData"]
 - !private ["s19_HasContiguousBytesP", "URLEncodedFormError"]
 - !private ["s19_HasContiguousBytesP", "bool"]
 - ["s19_HasContiguousBytesP", "convertFromURLEncodedFormData"]
@@ -494,6 +530,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bool"]
 - !private ["s21_ObjectiveCBridgeableP", "Decimal"]
 - !private ["s21_ObjectiveCBridgeableP", "URLEncodedFormError"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
 - !private ["s21_ObjectiveCBridgeableP", "bool"]
 - ["s21_ObjectiveCBridgeableP", "convertFromURLEncodedFormData"]
 - ["s21_ObjectiveCBridgeableP", "convertToURLEncodedFormData"]
@@ -564,6 +601,7 @@ depends-nominal:
 - !private "Sq"
 - !private "4Core12OptionalTypeP"
 - "Sm"
+- "10Foundation20ReferenceConvertibleP"
 - "4Core19ReflectionDecodableP"
 - "s10SIMDScalarP"
 - "ST"
@@ -580,6 +618,7 @@ depends-nominal:
 - "s6UInt32V"
 - "s6UInt64V"
 - "s5UInt8V"
+- "10Foundation3URLV"
 - !private "14URLEncodedForm0aB4DataO"
 - "14URLEncodedForm0aB15DataConvertibleP"
 - !private "14URLEncodedForm0aB5ErrorV"
@@ -593,6 +632,7 @@ depends-nominal:
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
 - "s19_HasContiguousBytesP"
 - "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
@@ -1909,4 +1949,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "694055630defb5ca4af3dd16d3dc9556"
+interface-hash: "bed6afbbe3fb7cde9aa604bb25dcabf6"

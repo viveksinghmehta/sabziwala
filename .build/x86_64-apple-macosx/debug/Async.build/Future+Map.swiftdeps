@@ -15,43 +15,36 @@ depends-top-level:
 - !private "IntegerLiteralType"
 - !private "StringLiteralType"
 depends-member:
-- !private ["SQ", "addAwaiter"]
-- !private ["SQ", "cascade"]
-- !private ["SQ", "catch"]
-- !private ["SQ", "do"]
 - !private ["SQ", "eventLoop"]
-- !private ["3NIO9EventLoopP", "newPromise"]
+- !private ["SQ", "then"]
+- !private ["SQ", "thenIfError"]
+- !private ["SQ", "thenIfErrorThrowing"]
+- !private ["SQ", "thenThrowing"]
+- !private ["3NIO9EventLoopP", "newFailedFuture"]
 - ["3NIO15EventLoopFutureC", "Error"]
 - ["3NIO15EventLoopFutureC", "Expectation"]
 - ["3NIO15EventLoopFutureC", "Future"]
-- !private ["3NIO15EventLoopFutureC", "addAwaiter"]
-- !private ["3NIO15EventLoopFutureC", "cascade"]
-- !private ["3NIO15EventLoopFutureC", "catch"]
 - ["3NIO15EventLoopFutureC", "catchFlatMap"]
 - ["3NIO15EventLoopFutureC", "catchMap"]
 - !private ["3NIO15EventLoopFutureC", "deinit"]
-- !private ["3NIO15EventLoopFutureC", "do"]
 - !private ["3NIO15EventLoopFutureC", "eventLoop"]
 - ["3NIO15EventLoopFutureC", "flatMap"]
 - ["3NIO15EventLoopFutureC", "map"]
-- !private ["3NIO14EventLoopGroupP", "newPromise"]
-- !private ["3NIO16EventLoopPromiseV", "fail"]
-- !private ["3NIO16EventLoopPromiseV", "futureResult"]
-- !private ["3NIO16EventLoopPromiseV", "succeed"]
-- !private ["5Async12FutureResultO", "error"]
-- !private ["5Async12FutureResultO", "success"]
-- !private ["5Async10FutureTypeP", "addAwaiter"]
-- !private ["5Async10FutureTypeP", "cascade"]
-- !private ["5Async10FutureTypeP", "catch"]
-- !private ["5Async10FutureTypeP", "do"]
+- !private ["3NIO15EventLoopFutureC", "then"]
+- !private ["3NIO15EventLoopFutureC", "thenIfError"]
+- !private ["3NIO15EventLoopFutureC", "thenIfErrorThrowing"]
+- !private ["3NIO15EventLoopFutureC", "thenThrowing"]
+- !private ["3NIO14EventLoopGroupP", "newFailedFuture"]
 - !private ["5Async10FutureTypeP", "eventLoop"]
+- !private ["5Async10FutureTypeP", "then"]
+- !private ["5Async10FutureTypeP", "thenIfError"]
+- !private ["5Async10FutureTypeP", "thenIfErrorThrowing"]
+- !private ["5Async10FutureTypeP", "thenThrowing"]
 depends-nominal:
 - !private "SQ"
 - !private "3NIO9EventLoopP"
 - "3NIO15EventLoopFutureC"
 - !private "3NIO14EventLoopGroupP"
-- !private "3NIO16EventLoopPromiseV"
-- !private "5Async12FutureResultO"
 - !private "5Async10FutureTypeP"
 depends-dynamic-lookup:
 depends-external:

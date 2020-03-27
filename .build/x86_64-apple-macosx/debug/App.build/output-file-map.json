@@ -2,17 +2,29 @@
   "": {
     "swift-dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/master.swiftdeps"
   },
-  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/Sources/App/Controllers/TodoController.swift": {
-    "dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Controllers/TodoController.d",
-    "object": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Controllers/TodoController.swift.o",
-    "swiftmodule": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Controllers/TodoController~partial.swiftmodule",
-    "swift-dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Controllers/TodoController.swiftdeps"
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/Sources/App/Controllers/HospitalController.swift": {
+    "dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Controllers/HospitalController.d",
+    "object": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Controllers/HospitalController.swift.o",
+    "swiftmodule": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Controllers/HospitalController~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Controllers/HospitalController.swiftdeps"
   },
-  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/Sources/App/Models/Todo.swift": {
-    "dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/Todo.d",
-    "object": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/Todo.swift.o",
-    "swiftmodule": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/Todo~partial.swiftmodule",
-    "swift-dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/Todo.swiftdeps"
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/Sources/App/Models/AddressModel.swift": {
+    "dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/AddressModel.d",
+    "object": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/AddressModel.swift.o",
+    "swiftmodule": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/AddressModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/AddressModel.swiftdeps"
+  },
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/Sources/App/Models/HospitalModel.swift": {
+    "dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/HospitalModel.d",
+    "object": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/HospitalModel.swift.o",
+    "swiftmodule": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/HospitalModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/HospitalModel.swiftdeps"
+  },
+  "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/Sources/App/Models/PhoneNumberModel.swift": {
+    "dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/PhoneNumberModel.d",
+    "object": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/PhoneNumberModel.swift.o",
+    "swiftmodule": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/PhoneNumberModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/Models/PhoneNumberModel.swiftdeps"
   },
   "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/Sources/App/app.swift": {
     "dependencies": "/Users/apple/Documents/Vivek/Vapor Projects/Sabzi Wala/.build/x86_64-apple-macosx/debug/App.build/app.d",

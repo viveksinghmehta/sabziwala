@@ -3,6 +3,7 @@
 21c21eccb1f619cd8e95971430cce7bd22e3e2b8 refs/heads/async-close
 cd6fe64bb9fd98ccbe4788208c4a4f373e966a7a refs/heads/fix-indentation
 144a68bf86136d505662db1966caed391b72686e refs/heads/fix-leaking-event-loop-group
+e42b92457127ea2e6eab8d6e6ed262576049816b refs/heads/issue175
 486c37862da1073f35aed4980ea03c591ab3555e refs/heads/json-type
 8f6d4fa648c5aa1d6ecdefea4d7fe25f97e599d0 refs/heads/master
 47651967f702efc32e7da3010d75d0c5e8ff5bd7 refs/heads/nio-connection-leak
@@ -68,6 +69,8 @@ eebe3424a3f603b17e23cc9ffc5931c467e9279e refs/pull/170/head
 04fc6d21a793255f3f56e01b8946e7375fad1947 refs/pull/172/head
 c5d6ff442e4a1038422e689ebfe420a75f916bd8 refs/pull/173/head
 8ff218a2fd572202c9b64068afbc6edaef4fe1bd refs/pull/174/head
+e42b92457127ea2e6eab8d6e6ed262576049816b refs/pull/176/head
+ba3f2dccbddbde0f25d25646bace27678cfdea8b refs/pull/176/merge
 1a36732f90002c754700093c540668f49fdb2933 refs/pull/19/head
 16d67e98ca4ff8bc0d6835482ee2ab828f0bfd4c refs/pull/19/merge
 53c619bb6a44661cbb8eb1a9306a9ed612018e1f refs/pull/20/head

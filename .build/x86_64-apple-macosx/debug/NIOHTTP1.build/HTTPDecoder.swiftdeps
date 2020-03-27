@@ -59,6 +59,7 @@ depends-top-level:
 - !private "HPE_INVALID_PORT"
 - !private "HPE_INVALID_QUERY_STRING"
 - !private "HPE_INVALID_STATUS"
+- !private "HPE_INVALID_TRANSFER_ENCODING"
 - !private "HPE_INVALID_URL"
 - !private "HPE_INVALID_VERSION"
 - !private "HPE_LF_EXPECTED"
@@ -550,6 +551,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "HPE_INVALID_PORT"]
 - !private ["s28CustomDebugStringConvertibleP", "HPE_INVALID_QUERY_STRING"]
 - !private ["s28CustomDebugStringConvertibleP", "HPE_INVALID_STATUS"]
+- !private ["s28CustomDebugStringConvertibleP", "HPE_INVALID_TRANSFER_ENCODING"]
 - !private ["s28CustomDebugStringConvertibleP", "HPE_INVALID_URL"]
 - !private ["s28CustomDebugStringConvertibleP", "HPE_INVALID_VERSION"]
 - !private ["s28CustomDebugStringConvertibleP", "HPE_LF_EXPECTED"]
@@ -758,6 +760,7 @@ depends-member:
 - !private ["SQ", "HPE_INVALID_PORT"]
 - !private ["SQ", "HPE_INVALID_QUERY_STRING"]
 - !private ["SQ", "HPE_INVALID_STATUS"]
+- !private ["SQ", "HPE_INVALID_TRANSFER_ENCODING"]
 - !private ["SQ", "HPE_INVALID_URL"]
 - !private ["SQ", "HPE_INVALID_VERSION"]
 - !private ["SQ", "HPE_LF_EXPECTED"]
@@ -910,6 +913,7 @@ depends-member:
 - !private ["s5ErrorP", "HPE_INVALID_PORT"]
 - !private ["s5ErrorP", "HPE_INVALID_QUERY_STRING"]
 - !private ["s5ErrorP", "HPE_INVALID_STATUS"]
+- !private ["s5ErrorP", "HPE_INVALID_TRANSFER_ENCODING"]
 - !private ["s5ErrorP", "HPE_INVALID_URL"]
 - !private ["s5ErrorP", "HPE_INVALID_VERSION"]
 - !private ["s5ErrorP", "HPE_LF_EXPECTED"]
@@ -1169,6 +1173,7 @@ depends-member:
 - !private ["8NIOHTTP115HTTPParserErrorO", "HPE_INVALID_PORT"]
 - !private ["8NIOHTTP115HTTPParserErrorO", "HPE_INVALID_QUERY_STRING"]
 - !private ["8NIOHTTP115HTTPParserErrorO", "HPE_INVALID_STATUS"]
+- !private ["8NIOHTTP115HTTPParserErrorO", "HPE_INVALID_TRANSFER_ENCODING"]
 - !private ["8NIOHTTP115HTTPParserErrorO", "HPE_INVALID_URL"]
 - !private ["8NIOHTTP115HTTPParserErrorO", "HPE_INVALID_VERSION"]
 - !private ["8NIOHTTP115HTTPParserErrorO", "HPE_LF_EXPECTED"]
@@ -1267,6 +1272,7 @@ depends-member:
 - !private ["SH", "HPE_INVALID_PORT"]
 - !private ["SH", "HPE_INVALID_QUERY_STRING"]
 - !private ["SH", "HPE_INVALID_STATUS"]
+- !private ["SH", "HPE_INVALID_TRANSFER_ENCODING"]
 - !private ["SH", "HPE_INVALID_URL"]
 - !private ["SH", "HPE_INVALID_VERSION"]
 - !private ["SH", "HPE_LF_EXPECTED"]
