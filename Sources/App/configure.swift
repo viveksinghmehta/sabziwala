@@ -23,11 +23,11 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
 
     // Configure a PostgreSQL database
     let postgreDatabaseConfig = PostgreSQLDatabaseConfig(
-    hostname: "drona.db.elephantsql.com",
+    hostname: "ec2-34-200-101-236.compute-1.amazonaws.com",
     port: 5432,
-    username: "jlvyhmal",
-    database: "jlvyhmal",
-    password: "yvjcZ9gqrSLHeHBaYTVK9gR9DFGS1zDy")
+    username: "jiiaciwpjgkaha",
+    database: "d9r4ru5lbre9mh",
+    password: "e18a3fdc3ab262d9435871a4b95901341fdaa4cd0c40dcd2f8c80662581ee880")
 
     // Register the configured SQLite database to the database config.
     var databases = DatabasesConfig()
